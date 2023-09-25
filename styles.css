@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
+  display: flex; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  min-height: 100vh; /* Garante que o corpo ocupe a altura total da tela */
+}
+
+.caixa-maior {
+  background-color: #000000;
+  width: 95%;
+  max-width: 420px;
+  opacity: 0.8;
+  padding: 20px;
+  border-radius: 25px;
+  text-align: left; /* Centraliza o conteúdo interno horizontalmente */
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 24px;
+  font-size: 20px;
+  background-color: #7c7c7c2b;
+  color: #ffffff;
+  width: calc(100% - 100px);
+  margin-bottom: 10px; /* Adicione um espaçamento entre o campo de entrada e o botão */
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7c7c7c6b;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.caixa-menor {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: left; /* Centraliza horizontalmente */
+}
+
+.lupa {
+  height: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 28px;
+}
+
+.temp {
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.descricao {
+  color: #ffffff;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.umidade {
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.legenda-cidade {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
