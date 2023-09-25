@@ -1,5 +1,7 @@
 <h1 align="center">Previsão do Tempo</h1>
 
+[![Generic badge](https://img.shields.io/badge/Status-Em_Andamento-yellow.svg)](https://shields.io/)
+
 ## Desenvolvedora
 
 <table>
